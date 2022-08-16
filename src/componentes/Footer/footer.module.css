@@ -1,0 +1,77 @@
+.footer {
+    grid-area: pie;
+    background-color: rgba(255, 255, 255, 0.705);
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 2%;
+  }
+  
+  .link-fot {
+    margin: 1%;
+  }
+  .link-fot .webAflorar {
+    font-size: x-large;
+  }
+  
+  .mediosDePago {
+    margin: 1%;
+  }
+  
+  .tarjeta-foot {
+    margin-right: 7%;
+    width: 17%;
+    margin-bottom: 6%;
+  }
+  
+  .contacto {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto-tel {
+    font-size: large;
+    text-decoration: none;
+  }
+  
+  .contacto-mail {
+    font-size: large;
+    text-decoration: none;
+  }
+  
+  .fa-phone {
+    margin-right: 2%;
+    color: black;
+    font-size: x-large;
+  }
+  
+  .fa-envelope {
+    margin-right: 4%;
+    color: rgb(70, 0, 70);
+    font-size: x-large;
+  }
+  
+  .social-bar-footer {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inst-foot {
+    font-size: x-large;
+    color: rgb(104, 0, 52);
+    text-decoration: none;
+  }
+  
+  .fa-instagram {
+    margin-right: 2%;
+    color: rgb(70, 0, 70);
+    font-size: x-large;
+  }
+  
+  .fb-foot {
+    font-size: x-large;
+    color: blue;
+    text-decoration: none;
+  }
+  

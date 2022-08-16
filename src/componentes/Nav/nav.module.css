@@ -1,0 +1,9 @@
+.navBar{
+    display: flex;
+    margin: 0%;
+    background: linear-gradient(rgba(255, 193, 208, 0.72), rgba(231, 151, 233, 0));
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
