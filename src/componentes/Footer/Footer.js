@@ -16,7 +16,7 @@ return (
        <div class="mediosDePago"> 
             <h3>Medios De Pago</h3>
             <p> Todos los medios de pago. Paypal, Mercado Pago, Tarjeta de Credito,
-            Efectivo </p> <br/>
+            Efectivo </p> 
             <img src= {'../assets/visa@2x.png'} className="tarjetaFoot"  alt=""/>
             <img src={"../assets/cabal@2x.png"}  className="tarjetaFoot" alt=""/>
             <img src={"../assets/mastercard@2x.png"}  className="tarjetaFoot" alt=""/>
@@ -37,7 +37,7 @@ return (
     </div>
     
     <div className={estilos.socialBarFooter}> 
-        <h3 > Redes Sociales</h3>
+        <h3> Redes Sociales</h3>
         <a href="http://facebook.com/flores.aflorar" className="fb-foot"><i className="fa-brands fa-facebook-square"></i>  Facebook</a>
         <a href="http://instagram.com/aflorar.arg" className="inst-foot"><i className="fa-brands fa-instagram"></i> Instagram</a>
     </div>
