@@ -1,9 +1,16 @@
 import React from 'react'
+import {stockProductos} from '../../data'
+import Item from '../ItemListContainer/ItemListContainer';
+
+
 
 const Main = () => {
+  console.log(stockProductos )
   return (
-    <main className='productos'> Aqui deberian ir los productos..... 
-
+    <main className='productos'>  
+        {stockProductos.map(item => (
+          <Item producto={item} />
+        ))};
     </main>
   );
 };
